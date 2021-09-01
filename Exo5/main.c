@@ -15,8 +15,8 @@
 
 
 
-// Write a program in C code that convert a temperature given in Fahrenheit degrees
-// to a temperature given in Celsius degrees ( = Fahrenheit – 32) x 5/9),
+// Write a program in C code that convert a given temperature in Fahrenheit degrees
+// to a temperature in Celsius degrees ( = Fahrenheit – 32) x 5/9),
 // then in Kelvin degrees ( = Fahrenheit + 459,67) x 5/9
 // Display all values on console screen.
 
@@ -43,8 +43,19 @@ int main() {
 
 	printf("In fact you gave me %d man, ok ok", count); // don't use & here !
 
+	// 4 -
+	// It is your turn :
 
 
 
 	return EXIT_SUCCESS;
 }
+
+// About name for the variables :
+	// it contains no special or accentuated chars, neither spaces
+	// underscore '_' can be used 
+	// it is not a reserved keyword
+	// it do not start with number
+	// it is case sensitive, uppercase and lowercase are considered as different characters.
+	// it should explicite
+	// it should respect project or corporate policy for variables naming

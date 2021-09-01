@@ -23,7 +23,7 @@ int main() {
 
 	bool canBeDividedBy2 = false;
 
-	bool numberOfDay = 13;
+	int numberOfDay = 13;
 
 	// ok, we are using 'if' reserved keyword, don't tell anyone..
 
@@ -38,21 +38,31 @@ int main() {
 
 	if (numberOfDay % 2 == 0) {
 		// % operator calculates the modulo, rest of euclidian division
-		printf("\nThe number of day is even, means it can be divided by 2 while the rest of the division equals 0");
+		printf("\nThe number of day (%d) is even, means it can be divided by 2 while the rest of the division equals 0", numberOfDay);
 	}
 
 	if (!(numberOfDay % 2)) {
 		printf("\nThe number of day is even");
 	}
 	if ( ((numberOfDay % 2) != 0 ) && (numberOfDay != 13) ) {
-		printf("\nThe number of this day is odd but definitly not a friday the 13th ! ");
+		printf("\nThe number of this day (%d) is odd but definitly not a friday the 13th ! ", numberOfDay);
 	}
 
-	// Tell John if the number of day is between 1-7 or 15-21, it is his turn to do the housekeeping
-
+	// Tell John if the number of day is between 1-7 or 15-21, then it is his turn to do the housekeeping !
+	// Excepted if it is the 3rd, it's a off day for him.
 
 	// is a = 1 a true expression?? or is just an assignment 
 
+	// Takeaway : 
+	// Logical operators use two signs e.g. ||, &&
+	// also ==, != relationnal operator is used to test equality or difference between two numerical values
+	// comparison operator are >, <, <=, >=
+	// parenthesis ( ) are use to force evaluation
+	// Logical evaluation of an expression results in a logical value as true or false.
+	// Support for true and false is provided by stdbool.h
+	// By default, all values equal to 0 are evaluated as false, the others are evaluated as true.
+	// Expressions are evaluated from left to right
+	
 }
 
 
