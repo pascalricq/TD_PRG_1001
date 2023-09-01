@@ -1,4 +1,4 @@
-// This directive deactivate Warnings for unsecure functions that are deprecated by Microsoft.
+// This directive deactivates Warnings for unsecure functions that are deprecated by Microsoft.
 // This is not a good practice but is used for pedagogic purposes,
 // allowing usage of standard C functions as described in manuals.
 // You should use only secured functions named with _s postfix
@@ -11,7 +11,7 @@
 
 /******************************************/
 /*   TD PRG 1001   exo6                   */
-/*   P. RICQ 2021                         */
+/*   P. RICQ 2023                         */
 /******************************************/
 
 int main() {
@@ -25,12 +25,12 @@ int main() {
 
 	int numberOfDay = 13;
 
-	// ok, we are using 'if' reserved keyword, don't tell anyone..
+	// We are using 'if' reserved keyword, to build a conditionnal statement..
 
 	// if (requires logical expression here) { if expression was true, instruction here are executed }
 	// 
 	// So, C will try to evaluate any expression as a logical expression when a logical expression is expected
-	// Let's try
+	// Let's try :
 
 	if (niceDayToday) {
 		printf("\nI love when it's a nice day ");

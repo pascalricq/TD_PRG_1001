@@ -1,4 +1,4 @@
-// This directive deactivate Warnings for unsecure functions that are deprecated by Microsoft.
+// This directive deactivates Warnings for unsecure functions that are deprecated by Microsoft.
 // This is not a good practice but is used for pedagogic purposes,
 // allowing usage of standard C functions as described in manuals.
 // You should use only secured functions named with _s postfix
@@ -10,10 +10,10 @@
 
 /******************************************/
 /*   TD PRG 1001   exo2                   */
-/*   P. RICQ 2021                         */
+/*   P. RICQ 2023                         */
 /******************************************/
 
-// Numeric expression évaluation
+// Numeric expression evaluation
 
 int main() {
 
@@ -26,6 +26,7 @@ int main() {
 	10 + 20;
 	// 3 - use printf to calculate the sum of 10 + 20 and display the result in a single instruction
 	printf("\n%d", 10 + 20);
+	int a = 10;
 	// 4 - display the result of 1024 multiplied by 1024
 
 	// 5 - display the result of 10 divided by 2

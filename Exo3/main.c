@@ -1,4 +1,4 @@
-// This directive deactivate Warnings for unsecure functions that are deprecated by Microsoft.
+// This directive deactivates Warnings for unsecure functions that are deprecated by Microsoft.
 // This is not a good practice but is used for pedagogic purposes,
 // allowing usage of standard C functions as described in manuals.
 // You should use only secured functions named with _s postfix
@@ -10,7 +10,7 @@
 
 /******************************************/
 /*   TD PRG 1001   exo3                   */
-/*   P. RICQ 2021                         */
+/*   P. RICQ 2023                         */
 /******************************************/
 
 // Displaying text and using variables
@@ -102,6 +102,6 @@ int main() {
 		// print this message 
 		
 
-// Additional references:
+
 	return EXIT_SUCCESS;
 }

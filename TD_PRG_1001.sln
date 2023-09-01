@@ -15,6 +15,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exo5", "Exo5\Exo5.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exo6", "Exo6\Exo6.vcxproj", "{E18C2F75-9B3D-4F2D-86BB-B5256218839A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subject", "Subject", "{C6DDEC14-A9D0-42DB-86DF-AD99D5354149}"
+	ProjectSection(SolutionItems) = preProject
+		TD PRG1001-StartProgrammingInC.md = TD PRG1001-StartProgrammingInC.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

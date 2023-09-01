@@ -1,4 +1,4 @@
-// This directive deactivate Warnings for unsecure functions that are deprecated by Microsoft.
+// This directive deactivates Warnings for unsecure functions that are deprecated by Microsoft.
 // This is not a good practice but is used for pedagogic purposes,
 // allowing usage of standard C functions as described in manuals.
 // You should use only secured functions named with _s postfix
@@ -10,7 +10,7 @@
 
 /******************************************/
 /*   TD PRG 1001   exo5                  */
-/*   P. RICQ 2021                         */
+/*   P. RICQ 2023                         */
 /******************************************/
 
 
@@ -57,5 +57,5 @@ int main() {
 	// it is not a reserved keyword
 	// it do not start with number
 	// it is case sensitive, uppercase and lowercase are considered as different characters.
-	// it should explicite
+	// it should be explicit
 	// it should respect project or corporate policy for variables naming

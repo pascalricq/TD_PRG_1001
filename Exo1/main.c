@@ -1,4 +1,4 @@
-// This directive deactivate Warnings for unsecure functions that are deprecated by Microsoft.
+// This directive deactivates Warnings for unsecure functions that are deprecated by Microsoft.
 // This is not a good practice but is used for pedagogic purposes,
 // allowing usage of standard C functions as described in manuals.
 // You should use only secured functions named with _s postfix
@@ -10,7 +10,7 @@
 
 /******************************************/
 /*   TD PRG 1001   exo1                   */
-/*   P. RICQ 2021                         */
+/*   P. RICQ 2023                         */
 /******************************************/
 
 
@@ -43,7 +43,14 @@ int main() {
 	printf("ligne 6\n");
 
 	// 5 - Use keyboard Shortcut to uncomment the three previous lines
+
+
+	// 6 - Use template for creating a function commentary
+	// TIP: Type /// on the empty line before the main function declaration
+	// Between <summary> tags, give an explanation of the function purpose, e.g.: Program entry point
+	// Place the mouse cursor on the 'main' word and verify that a tooltip is displayed with the comment you wrote.
 	
+	// 7- Test the program by pressing CTRL+F5
 	// That's All ! 
 	return EXIT_SUCCESS;
 }
